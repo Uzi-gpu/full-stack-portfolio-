@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f6; /* simple background to stay consistent with portfolio approach */
+}
+
+.calculator {
+  width: 400px;
+  background-color: black;
+}
+
+.display {
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 20px;
+  font-family: monospace;
+  font-size: 3.5rem;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.result {
+  overflow: hidden;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  border-top: 2px solid black;
+}
+
+.btn {
+  background-color: #d8d9db;
+  border: none;
+  font-size: 2.2rem;
+  padding: 25px 0;
+  cursor: pointer;
+  color: black;
+  transition: background-color 0.1s;
+}
+
+.btn:active {
+  background-color: #a8a9ab;
+}
+
+.btn-operator {
+  background-color: #df974c;
+  color: white;
+}
+
+.btn-operator:active {
+  background-color: #bf772c;
+}
+
+.btn-c {
+  grid-column: span 2;
+}
+
+.btn-zero {
+  grid-column: span 3;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Final Assessment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="dashboard">
+      <header class="header">
+        <h1>Class Performance Dashboard</h1>
+        <p>JavaScript Final Assessment Results</p>
+      </header>
+      
+      <div class="summary-cards">
+        <div class="card" id="top-student-card">
+          <h3>Top Student</h3>
+          <p class="value" id="top-student-name">--</p>
+          <p class="subtext" id="top-student-score">Average: --</p>
+        </div>
+        <div class="card" id="class-avg-card">
+          <h3>Class Average</h3>
+          <p class="value" id="overall-average">--</p>
+          <p class="subtext">Overall Score</p>
+        </div>
+        <div class="card" id="honor-roll-card">
+          <h3>Honor Roll</h3>
+          <p class="value" id="honor-roll-count">--</p>
+          <p class="subtext">Students >= 85%</p>
+        </div>
+      </div>
+
+      <div class="student-list" id="student-list">
+        <!-- Students will be injected here -->
+      </div>
+    </div>
+    <script src="Experiments.js"></script>
+  </body>
+</html>
