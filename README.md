@@ -136,6 +136,7 @@ Open the root `index.html` file directly in your web browser. This acts as a cen
 
 **Uzair Mubasher**
 - GitHub: [@Uzi-gpu](https://github.com/Uzi-gpu)
+- Gmail: [uzairmubasher5@gmail.com]
 
 ## 📄 License
 
