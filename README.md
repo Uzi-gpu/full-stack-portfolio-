@@ -21,6 +21,7 @@ A comprehensive collection of web development projects demonstrating expertise i
 | 3 | **Coffee Masters** | CSS Flexbox & UI | `coffee shop project/` | E-Commerce Menu |
 | 4 | **iOS Style Calculator** | Vanilla JavaScript | `calculator project/` | Interactive Math App |
 | 5 | **Class Dashboard** | DOM Manipulation | `JS assessment/` | Data Processing UI |
+| 6 | **React Pizza Shop** | React & Node.js | `Pizza project/` | Full-stack E-Commerce |
 
 ## 🛠️ Technologies Used
 
@@ -28,6 +29,8 @@ A comprehensive collection of web development projects demonstrating expertise i
 - **HTML5** - Semantic structure and accessibility
 - **CSS3** - Styling, modern layouts, and animations
 - **Vanilla JavaScript (ES6+)** - Logic, state management, and DOM manipulation
+- **React (v18)** - Component-based UI rendering
+- **Node.js** - Local API backend and build tooling
 
 **Web Techniques**
 - **Responsive Design** - CSS Grid, Flexbox, Media Queries
@@ -124,6 +127,25 @@ Open the root `index.html` file directly in your web browser. This acts as a cen
 - ✅ Arrays and Object manipulation
 - ✅ `forEach` and `reduce` array methods
 - ✅ Dynamic HTML rendering via JavaScript
+
+### 6. 🍕 React Pizza Shop
+**File:** `Pizza project/`
+
+**Objective:** Build a modern, full-stack React application integrating advanced routing and data-fetching.
+
+**React & Full-Stack Concepts:**
+- Component-based architecture and JSX
+- State management with React Hooks (`useState`, `useEffect`, Custom Hooks)
+- Advanced Routing using **TanStack Router**
+- Data fetching and caching using **TanStack Query**
+- Backend integration via a Node.js API with a SQLite database
+
+**Implementation:**
+- ✅ Uncontrolled forms for order submission
+- ✅ Dynamic cart management and UI updates
+- ✅ Robust error boundaries for fail-safe rendering
+
+*(Note: Because this project uses a build tool (Vite) and a local database, it must be run locally using `npm run dev` rather than a static GitHub Pages link.)*
 
 ## 📚 Key Web Concepts Demonstrated
 
