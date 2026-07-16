@@ -22,6 +22,8 @@ A comprehensive collection of web development projects demonstrating expertise i
 | 4 | **iOS Style Calculator** | Vanilla JavaScript | `calculator project/` | Interactive Math App |
 | 5 | **Class Dashboard** | DOM Manipulation | `JS assessment/` | Data Processing UI |
 | 6 | **React Pizza Shop** | React & Node.js | `Pizza project/` | Full-stack E-Commerce |
+| 7 | **Product Catalog App** | React & Vite | `project 1 product-store/` | E-Commerce Storefront |
+| 8 | **HyperCatalog** | React & Custom Hooks | `project 2 HyperCatalog/` | Interactive Forms |
 
 ## 🛠️ Technologies Used
 
@@ -146,6 +148,42 @@ Open the root `index.html` file directly in your web browser. This acts as a cen
 - ✅ Robust error boundaries for fail-safe rendering
 
 *(Note: Because this project uses a build tool (Vite) and a local database, it must be run locally using `npm run dev` rather than a static GitHub Pages link.)*
+
+### 7. 🛍️ Product Catalog Store
+**File:** `project 1 product-store/`
+
+**Objective:** Build a polished React application that fetches product data and renders a dynamic, highly-styled catalog.
+
+**React Concepts:**
+- Component-based architecture with Parent/Child props passing
+- State management with React Hooks (`useState`)
+- Lifecycle handling and data fetching (`useEffect`)
+- Dynamic rendering with `.map()` and React keys
+
+**Implementation:**
+- ✅ Simulated network requests with loading spinners
+- ✅ Bonus "Add to Cart" state lifting functionality
+- ✅ Modern, premium UI utilizing CSS Grid, gradients, and glassmorphism
+
+*(Note: Because this project is built with Vite, you must run `npm install` and `npm run dev` locally to view it.)*
+
+### 8. ⚡ HyperCatalog
+**File:** `project 2 HyperCatalog/`
+
+**Objective:** Build an advanced React application utilizing Custom Hooks, controlled forms, and the Fetch API to perform POST requests.
+
+**React Concepts:**
+- Extracting business logic into Custom Hooks (`useProducts.js`)
+- Controlled form state for user inputs
+- Handling local file uploads using the `FileReader` API and Base64 Data URIs
+- Lifting state up via callback functions (`onProductAdded`)
+
+**Implementation:**
+- ✅ Complete isolation of fetching logic from the UI components
+- ✅ A working "Add New Product" form that instantly updates the DOM via mock POST requests
+- ✅ A premium Dark/Cyber theme utilizing CSS glassmorphism and glowing typography
+
+*(Note: Just like Project 7, ensure you run `npm run build` to generate the live static pages for your portfolio!)*
 
 ## 📚 Key Web Concepts Demonstrated
 
