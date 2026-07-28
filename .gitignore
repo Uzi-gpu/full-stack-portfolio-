@@ -13,6 +13,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Nested git repos — tracked separately, not as submodules
+portfolio/
+
+# Stray files
+package-lock.json
+
 # Editor directories and files
 .vscode/
 .idea/
