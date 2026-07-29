@@ -24,6 +24,8 @@ A comprehensive collection of web development projects demonstrating expertise i
 | 6 | **React Pizza Shop** | React & Node.js | `Pizza project/` | Full-stack E-Commerce |
 | 7 | **Product Catalog App** | React & Vite | `project 1 product-store/` | E-Commerce Storefront |
 | 8 | **HyperCatalog** | React & Custom Hooks | `project 2 HyperCatalog/` | Interactive Forms |
+| 9 | **HireBoard** | Redux Toolkit | `HireBoard/` | Job Board Application |
+| 10 | **Taskly** | RTK Query | `Taskly/` | Advanced Task Manager |
 
 ## 🛠️ Technologies Used
 
@@ -191,6 +193,37 @@ Open the root `index.html` file directly in your web browser. This acts as a cen
 - **CSS Layouts:** Mastery of both Flexbox (1-dimensional layouts) and Grid (2-dimensional layouts).
 - **DOM Manipulation:** Bridging the gap between static HTML and dynamic JavaScript logic.
 - **Separation of Concerns:** Keeping structure (HTML), presentation (CSS), and behavior (JS) clean and modular.
+
+### 9. 💼 HireBoard
+**File:** `HireBoard/`
+
+**Objective:** Build a robust, real-world job portal application focusing on advanced state management and data fetching.
+
+**React & Redux Concepts:**
+- Global state management utilizing **Redux Toolkit** (`configureStore`, `createSlice`).
+- Local storage and cookie synchronization for persisting user auth and themes.
+- Live API data fetching, caching, and loading states using **RTK Query**.
+- Secure protected routes and layout structures using **TanStack Router**.
+
+**Implementation:**
+- ✅ Fully functional light/dark mode theme toggling
+- ✅ Authentication flow simulating real API requests via DummyJSON
+- ✅ Complex UI components styled with **Tailwind CSS v4**
+
+### 10. 📋 Taskly
+**File:** `Taskly/`
+
+**Objective:** The Final Assessment project for the Redux Toolkit curriculum, building a personal task manager that handles customized local state combined with remote API data.
+
+**Advanced Redux Architecture:**
+- Custom `pinsSlice` to persist user-selected task priorities (High, Medium, Low).
+- Implementation of **Memoized Selectors** (`createSelector`) to efficiently calculate priority statistics.
+- **Optimistic Cache Updates** to instantly reflect UI changes (like adding a task) before the API resolves.
+
+**Implementation:**
+- ✅ Extends the HireBoard architectural pattern to a new domain
+- ✅ Interactive task feed using the DummyJSON Todos API
+- ✅ Dynamic statistics dashboard summarizing pinned task data
 
 ## 📧 Contact
 
