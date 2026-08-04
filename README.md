@@ -4,6 +4,8 @@
 
 A comprehensive collection of web development projects demonstrating expertise in structural HTML5, advanced CSS layouts (Flexbox & Grid), and interactive Vanilla JavaScript logic. This repository tracks the progression from static semantic webpages to dynamic, DOM-manipulating applications.
 
+https://uzi-gpu.github.io/full-stack-portfolio-/
+
 📋 Table of Contents
 - [Projects Overview](#-projects-overview)
 - [Technologies Used](#%EF%B8%8F-technologies-used)
